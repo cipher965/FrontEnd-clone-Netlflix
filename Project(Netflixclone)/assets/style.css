@@ -1,0 +1,563 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url(IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
+  height: 93vh;
+  position: relative;
+  background-size: cover;
+  width: 100vw;
+}
+.main .box {
+  height: 93vh;
+  width: 100vw;
+
+  background: rgb(0 0 0 / 40%);
+  position: absolute;
+  top: 0;
+}
+.main .blok {
+  height: 93vh;
+  width: 100vw;
+
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+
+  position: absolute;
+  top: 0;
+}
+
+nav > svg {
+  height: 5.5vh;
+  position: relative;
+  z-index: 10;
+}
+.cet {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  width: 75vw;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.btn {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  z-index: 10;
+}
+.Eng {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 18px;
+  color: white;
+  background-color: rgb(0 0 0 / 46%);
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-family: sans-serif;
+  font-weight: 500px;
+  font-size: medium;
+}
+.Sign {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: 2px none;
+  font-family: sans-serif;
+  font-weight: 500px;
+  font-size: medium;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40vh;
+  gap: 25px;
+}
+.big {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+.medium {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+.small {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+.inputer {
+  display: flex;
+  gap: 8px;
+}
+#myinput {
+  padding: 22px 144px 19px 14px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  font: 1em sans-serif;
+  background-color: rgb(0 0 0 / 46%);
+  border: 1px solid rgb(106, 106, 106);
+  font-weight: 400;
+  border-radius: 5px;
+  color: white;
+}
+.get {
+  position: relative;
+  z-index: 10;
+  color: white;
+  background-color: red;
+  border: 1px none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.seperation {
+  background-color: rgb(32, 32, 32);
+  height: 1vh;
+}
+.boxer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 10px;
+  background-color: black;
+  position: relative;
+  padding-bottom: 70px;
+}
+.bada {
+  color: white;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+.chota {
+  color: white;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.tv {
+  display: block;
+}
+.boil {
+  display: block;
+  position: relative;
+}
+.pepsi {
+  position: relative;
+  z-index: 10;
+}
+.roy {
+  width: 400px;
+}
+
+.toy {
+  position: absolute;
+  right: 81px;
+  bottom: 150px;
+
+  height: 30vh;
+}
+
+.none {
+  display: block;
+}
+.noi {
+  display: block;
+}
+
+.border {
+  border: 2px solid gray;
+  height: 90px;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 40px;
+  left: 170px;
+  z-index: 10;
+  background-color: black;
+  overflow: hidden;
+}
+.border img {
+  position: absolute;
+  height: 10vh;
+  padding: 7px;
+}
+.flirt {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  top: 23px;
+  left: 110px;
+}
+.moy {
+  position: relative;
+  z-index: 10;
+}
+
+.player {
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+.player2 {
+  font-family: sans-serif;
+  color: #0071eb;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+.set {
+  position: absolute;
+  left: 200px;
+  width: 4vw;
+  height: 1px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.kite {
+  background-color: black;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.question {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  color: white;
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.q1 {
+  width: 80vw;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+
+  border: 2px gray;
+  background-color: rgba(49, 49, 49, 0.997);
+  padding: 20px 7px;
+
+  justify-content: space-between;
+}
+
+.q1 svg {
+  height: 35px;
+}
+.space {
+  padding-top: 20px;
+}
+.space2 {
+  padding-top: 60px;
+}
+footer {
+  background-color: black;
+}
+
+.fot {
+  height: 30vh;
+  width: 70vw;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 25px;
+  padding-top: 50px;
+}
+
+a {
+  color: white;
+}
+.van {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.van1 {
+  transform: translateY(-23px);
+}
+.link {
+  color: white;
+  font-family: sans-serif;
+}
+.van2 {
+  transform: translateY(-20px);
+}
+.sml {
+  color: white;
+}
+.q1:hover {
+  background-color: rgb(68, 68, 68);
+  transition: all 1s ease-in-out;
+}
+.ing {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 18px;
+  color: white;
+  background-color: rgb(0 0 0 / 46%);
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-family: sans-serif;
+  font-weight: 500px;
+  font-size: medium;
+  width: 8vw;
+}
+.chase {
+  display: flex;
+  justify-content: center;
+}
+.key {
+  display: flex;
+  width: 70vw;
+
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 1300px) {
+  nav {
+    width: 95vw;
+  }
+  nav > svg {
+    height: 3.5vh;
+  }
+  .Eng {
+    height: 3.5vh;
+    padding: 7px 8px;
+  }
+  .Sign {
+    height: 3.5vh;
+    padding: 7px 8px;
+  }
+  #myinput {
+    padding: 10px 40px 19px 14px;
+  }
+  .get {
+    padding: 1px;
+    font-size: 18px;
+  }
+  .boxer {
+    display: flex;
+    flex-direction: column;
+  }
+  .bada {
+    font-size: 34px;
+  }
+
+  .fot {
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10px;
+  }
+
+  .van3 {
+    transform: translateY(63px);
+  }
+  .van1 {
+    transform: translateY(20px);
+  }
+  .ing {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 10px 18px;
+    color: white;
+    background-color: rgb(0 0 0 / 46%);
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: medium;
+    width: 25vw;
+  }
+  .key {
+    display: flex;
+    width: 95vw;
+
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .dad {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  .son {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+
+  .tv {
+    display: flex;
+  }
+  .boil 
+  {
+    
+    position: relative;
+  }
+  .pepsi {
+  position :relative;
+    z-index: 10;
+   width:500px;
+  }
+  .toy {
+    position: absolute;
+    right: 50px;
+    bottom: 90px;
+
+    height: 30vh;
+  }
+  .coke{
+    width:440px;
+  }
+
+  .none {
+    display: block;
+  }
+  .noi {
+    display: block;
+  }
+  .moy{
+    width:500px;
+  }
+  .roy{
+    width:300px;
+  }
+  .son{
+    width:500px;
+  }
+  .border {
+    border: 2px solid gray;
+    height: 90px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    z-index: 10;
+    background-color: black;
+    overflow: hidden;
+  }
+}
+@media  only screen and (max-width:600px) {
+  .tv {
+    display: flex;
+  }
+  .boil 
+  {
+    
+    position: relative;
+  }
+  .pepsi {
+  position :relative;
+    z-index: 10;
+   width:390px;
+  }
+  .toy {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+
+    height: 30vh;
+  }
+  .coke{
+    width:400px;
+    height:200px;
+  }
+
+  .none {
+    display: block;
+  }
+  .noi {
+    display: block;
+  }
+  .moy{
+    width:400px;
+  }
+  .roy{
+    width:220px;
+  }
+  .son{
+    width:400px;
+  }
+  .border {
+    border: 2px solid gray;
+    height: 90px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    z-index: 10;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  
+}
+
